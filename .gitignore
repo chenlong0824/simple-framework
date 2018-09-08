@@ -1,0 +1,7 @@
+# Log Files
+*.log
+
+# IntelliJ
+*.iml
+.idea/
+target/
