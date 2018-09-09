@@ -40,7 +40,6 @@ public class HelloController {
     public View doHello(Param param) {
         int id = param.getInt("id");
         String result = helloService.hello();
-        System.out.println("result=" + result);
         Map<String, Object> model = new HashMap<String, Object>();
         model.put("id", id);
         model.put("result", result);

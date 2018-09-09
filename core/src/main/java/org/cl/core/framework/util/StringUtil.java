@@ -32,7 +32,14 @@ public final class StringUtil {
         return !isEmpty(str);
     }
 
+    /**
+     * 将字符串根据规则分割
+     * @param body
+     * @param s
+     * @return
+     */
     public static String[] splitString(String body, String s) {
-        return null;
+        String[] array = body.split("s");
+        return array;
     }
 }
